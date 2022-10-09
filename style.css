@@ -1,53 +1,62 @@
-			body {
-			    padding:20px;
-                align-items: center;
-                justify-content: center;
-                display: flex;
-			}
-			input {
-			    padding:5px;
-			    background-color:transparent;
-			    border:none;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-			    border-bottom:solid 4px #8c52ff;
-			    width:250px;
-			    font-size:16px;
-			}
-			
-			.qr-btn {
-			    background-color:#8c52ff;
-			    padding:8px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-			    color:white;
-			    cursor:pointer;
-			}
-            .card{
-               
-                width: 300px;
-                height: 450px;
-                 display: flex;
-                align-items: center;
-                justify-content: center;
-                background-color: #c4f9ff;
-                border-radius: 10px;
-                padding: 10px;
-                margin: 10px;
-                display: inline-block;
-            }
-            
-            .card h1{
-                font-size: 20px;
-                font-weight: 500;
-                text-align: center;
-            }
-            @media screen and (max-width: 600px) {
-                .card{
-                    width: 100%;
-                }
-            }
-                
-            
+.container-fluid {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #8c52ff;
+    margin: 0px 20%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+input {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 4px #8c52ff;
+    width: 250px;
+    font-size: 16px;
+}
+
+.qr-btn {
+    background-color: #8c52ff;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.card {
+
+    width: 300px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4f9ff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.card h1 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
+
+.headin {
+    text-align: center;
+}
